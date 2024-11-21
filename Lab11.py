@@ -100,7 +100,7 @@ def assignment_stats(assignment_name):
         for i in grade_list:
             gross_score += int(i)
         average_score = gross_score/(len(grade_list))
-        print(f'Min: {minimum_score}%\nAvg: {average_score}%\nMax: {maximum_score:.0f}%')
+        print(f'Min: {minimum_score}%\nAvg: {average_score:.0f}%\nMax: {maximum_score}%')
         exit()
 
 def assignment_scores(assignment_name):
